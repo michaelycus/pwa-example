@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
-    
+    <link rel="stylesheet" href="style.css" />
+
     <!-- modify -->
     <title>Title</title>
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#33ffcc"/>
+    <meta name="theme-color" content="#33ffcc" />
     <!-- /manifest -->
 </head>
+
 <body>
-    
-    <h1>it works.</h1>
+
+    <p class="small">
+        Only tested in Edge, FireFox and Safari, please check browser support <a
+            href="https://caniuse.com/#feat=css-snappoints" target="_blank">here</a>
+    </p>
+
+    <div class="mobile">
+
+        <main class="swipe-view">
+            <section class="green">
+            </section>
+            <section class="purple">
+            </section>
+            <section class="orange">
+            </section>
+
+        </main>
+
+
+        <nav>
+            Swipe Views
+        </nav>
+    </div>
+
+
 
     <!-- load service worker -->
     <script src="app.js"></script>
     <!-- /load service worker -->
 </body>
+
 </html>
